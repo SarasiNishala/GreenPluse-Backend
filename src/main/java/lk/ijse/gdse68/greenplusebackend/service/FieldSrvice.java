@@ -8,7 +8,7 @@ import java.util.List;
 public interface FieldSrvice {
     void saveField(FieldDTO fieldDTO);
     void updateField(FieldDTO fieldDTO, String fieldCode);
-    void deleteField(String field_code) throws Exception;
+    void deleteField(String field_code);
     List<FieldDTO> getAllField();
     FieldResponse getField(String field_code);
 }
