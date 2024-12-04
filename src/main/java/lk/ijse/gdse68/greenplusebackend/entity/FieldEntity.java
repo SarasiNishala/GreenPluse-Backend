@@ -19,7 +19,7 @@ public class FieldEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int fieldCode;
     private String fieldName;
-    private Point fieldLocation;
+    private String fieldLocation;
     private Double extentSize;
     @Column(columnDefinition = "LONGTEXT")
     private String fieldImage1;

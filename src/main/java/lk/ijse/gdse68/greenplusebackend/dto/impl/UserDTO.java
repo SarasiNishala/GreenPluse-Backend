@@ -1,4 +1,4 @@
-package lk.ijse.gdse68.greenplusebackend.dto;
+package lk.ijse.gdse68.greenplusebackend.dto.impl;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
