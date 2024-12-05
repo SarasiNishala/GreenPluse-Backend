@@ -32,7 +32,8 @@ public class StaffEntity {
     private String contactNo;
     @Column(unique = true)
     private String email;
-    private String role;
+    @Enumerated(EnumType.STRING)
+    private Role role;
     @OneToMany(mappedBy = "staff")
     private List<FieldStaff> fieldStaffs = new ArrayList<>();
     @OneToMany(mappedBy = "staff")
